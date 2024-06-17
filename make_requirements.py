@@ -65,9 +65,13 @@ class PackageFilter:
 
 
 if __name__ == "__main__":
-    
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--src", type="str")
+    args = parser.parse_args()
+
     filter_instance = PackageFilter(
-        project_path=".", 
+        project_path=args.src, 
         necessary_package_list=[
             "open-clip-torch==2.24.0",
             "lightning==2.2.5",

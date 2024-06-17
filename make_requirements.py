@@ -67,7 +67,7 @@ class PackageFilter:
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--src", type="str")
+    parser.add_argument("--src", type=str)
     args = parser.parse_args()
 
     filter_instance = PackageFilter(

@@ -79,6 +79,7 @@ if __name__ == "__main__":
             "cupy-cuda12x==12.3.0",
             "python-magic==0.4.27",
             "requests_toolbelt==1.0.0",
+            "typer_config==1.4.0",
         ],
         output_file="requirements_production.txt")
     

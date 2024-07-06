@@ -1,0 +1,2 @@
+pipdeptree==2.22.0
+pipreqs==0.5.0

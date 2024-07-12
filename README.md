@@ -1,6 +1,8 @@
 # 🎨 Requirements Maker
-![middlek_git_header](assets/middlek_git_header.png)
+![git_header](assets/middlek_git_header.png)
+
 꼭 필요한 패키지만 포함한 효율적인 requirements 생성
+<!-- ![git_header](assets/favorfit-git-header.png) -->
 
 ## 🚀 Introduction
 Requirements Maker는 Python 프로젝트의 의존성을 분석하여 최적화된 requirements.txt 파일을 생성하는 도구입니다. 이 도구는 **프로젝트의 import 구문, 가상환경에 설치된 패키지, 그리고 패키지 간의 의존성을 종합적으로 분석**하여 프로젝트 실행에 **꼭 필요한 패키지만을 추출**합니다.
@@ -100,3 +102,5 @@ SOFTWARE.
 ```
 ## 📞 Contact
 middlek - middlekcenter@gmail.com
+
+<!-- favorfit - lab@favorfit.ai -->
